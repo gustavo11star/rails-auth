@@ -1,0 +1,13 @@
+<h1>Pagina Inicial</h1>
+
+<ul>
+	<li><%= link_to "Novo usuario", new_user_registration_path %></li>
+	<li><%= link_to "Login", new_user_session_path %></li>
+	<li><%= link_to "LogOut", destroy_user_session_path, method: :delete %></li>
+</ul>
+
+
+<ul>
+	<li><%= link_to "Clientes", customers_path %></li>
+	<li><%= link_to "Produtos", products_path %></li>
+</ul>
